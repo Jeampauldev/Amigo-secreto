@@ -91,6 +91,18 @@ function sortearAmigo() {
     }, 1000);
 }
 
+// Función para preguntar si usar la misma lista o crear una nueva
+function preguntarNuevaLista() {
+    let usarMismaLista = confirm("¿Quieres usar la misma lista de amigos para el próximo sorteo?");
+    if (!usarMismaLista) {
+        reiniciarSorteo();
+    } else {
+        document.getElementById("resultado").innerHTML = "";
+        document.getElementById("botonSorteo").style.display = "block";
+        document.getElementById("nuevoSorteo").style.display = "none";
+    }
+}
+
 // Función para reiniciar el sorteo
 function reiniciarSorteo() {
     amigos = [];
