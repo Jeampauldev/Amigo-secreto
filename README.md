@@ -41,7 +41,7 @@ Amigo-Secreto/
 - Agregar efectos visuales durante el sorteo.
 
 ## Autor
-- **[Tu Nombre]** - Desarrollo y documentación.
+- **[Jeam Paul]** - Desarrollo y documentación.
 
 ## Licencia
 Este proyecto se distribuye bajo la licencia MIT. Puedes ver más detalles en el archivo `LICENSE`.
